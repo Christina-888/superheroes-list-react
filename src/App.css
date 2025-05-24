@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} 
+
+.title {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid red;
+  margin: 1%;
+  padding: 1%;
+  width: 27%;
+}
+
+.image {
+  max-width: 100%;
+}
